@@ -1,8 +1,0 @@
-version: 2
-jobs:
-  build:
-    working_directory: ~/repo
-    machine: true
-    steps:
-      - checkout
-      - run: docker compose up --build
