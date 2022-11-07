@@ -7,5 +7,3 @@ jobs:
       - checkout
       - run: docker build -t sowrongimright/docker-react-test -f Dockerfile.dev .
       - run: docker run sowrongimright/docker-react-test npm run test
-      - store_artifacts:
-        path: ~/repo/artifacts
